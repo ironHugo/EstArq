@@ -1,0 +1,29 @@
+/* -------------- Seting--------------- */
+* { margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+/* ------------ End seting ------------ */
+
+/* -------------- Definición de fuente propia--------------- */
+
+@font-face {
+    font-family: "myFont";
+    src: url("../font/maiden-webfont.woff") format("woff"),
+        url("../font/maiden-webfont.woff2") format("woff2"),
+        url("../font/maiden.TTF") format("truetype");
+}
+
+/* ------------ Fin de definición de fuente propia ------------ */
+
+/* ------------ Parámetros generales. ------------ */
+
+body {background: linear-gradient(red, orange, yellow, green, blue, pink);}
+.container { background: url("../img/fondAlic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

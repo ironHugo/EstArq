@@ -1,0 +1,9 @@
+@charset "utf-8"; /*define codificación de caracteres.*/
+
+@import url("GenRes.css"); /* Valores de reseteo y generales.*/
+@import url("disDes.css"); /* Para dispositivos en desuso. */
+@import url("disPeq.css"); /* Para dispositivos pequeños.*/
+@import url("smaPho.css"); /* Para smart phone. */
+@import url("parTab.css"); /* Para dispositivos tipo tablet. */
+@import url("disEsc.css"); /* para dispositivos de escritorio. */
+@import url("estFon.css"); /* Para configurar disposición de elementos. */
